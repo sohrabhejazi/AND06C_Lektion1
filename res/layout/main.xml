@@ -1,0 +1,39 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background" >
+android:padding="8dp" >
+<TextView
+android:id="@+id/tv_hello"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="@string/hello"
+android:textColor="@color/text" />
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<Button
+android:id="@+id/bt_location"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/bt_location" />
+<Button
+android:id="@+id/bt_toggle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/bt_toggle" />
+<Button
+android:id="@+id/bt_quit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/bt_quit" />
+</LinearLayout>
+<TextView
+android:id="@+id/tv_output"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="@color/text" />
+</LinearLayout>

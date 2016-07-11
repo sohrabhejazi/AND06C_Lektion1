@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoNotes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Verfügbare Provider: </string>
+    <string name="bt_location">Mein Standort</string>
+    <string name="bt_quit">Beenden</string>
+    <string name="bt_toggle">Toggle Provider</string>
+    <string name="title_activity_note_map">NoteMapActivity</string>
+
+</resources>
